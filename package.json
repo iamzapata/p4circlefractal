@@ -1,0 +1,25 @@
+{
+  "name": "p5playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "me@azapata.io",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier --write 'pages/**/*.js'",
+    "deploy:staging": "now && now alias azapata",
+    "deploy:prod": "now && now alias azapata.io",
+    "deploy": "yarn deploy:staging && yarn deploy:prod",
+    "now-build": "next build && next export -o dist",
+    "now-dev": "next -p $PORT"
+  },
+  "dependencies": {
+    "next": "^9.2.1",
+    "p5": "^0.10.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-p5": "^1.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}

@@ -1,0 +1,7 @@
+{   "name": "p5playground",
+    "version": 2,
+    "alias": "p5.azapata.io",
+    "builds": [
+        { "src": "package.json", "use": "@now/static-build" }
+    ]
+}
