@@ -13,7 +13,7 @@
     "now-dev": "next -p $PORT"
   },
   "dependencies": {
-    "next": "^9.3.2",
+    "next": "^11.1.3",
     "p5": "^0.10.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
